@@ -7,6 +7,8 @@ var app      = express();
 var port     = process.env.PORT || 8080;
 const MongoClient = require('mongodb').MongoClient
 var mongoose = require('mongoose');
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useUnifiedTopology', true);
 var passport = require('passport');
 var flash    = require('connect-flash');
 
