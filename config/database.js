@@ -1,6 +1,6 @@
 // config/database.js
 module.exports = {
 
-    'url' : 'mongodb+srv://sav:sav123@savage.xprr8.mongodb.net/auth?retryWrites=true&w=majority', 
+    'url' : 'mongodb+srv://cruddemo:TGW4Bnddm5l4nHjN@cluster0.t24xs.mongodb.net/?retryWrites=true&w=majority', 
     'dbName': 'auth'
 };

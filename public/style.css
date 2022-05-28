@@ -1,7 +1,67 @@
 body{
-  padding-top:80px;
+  padding-top: 40px;
   word-wrap:break-word;
 }
 img{
   height: 200px;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  background: rgb(63, 95, 84);
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+}
+
+.msgCenter {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(61, 78, 70, 0.5);
+  margin: 20px;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.addMsg {
+  display: flex;
+  flex-direction: column;
+  margin-left: 105px;
+}
+
+.messages {
+  padding: 0;
+}
+
+.col-sm-6 {
+  margin-left: 205px;
+}
+
+.btn-sm {
+  margin: 10px;
+  margin-top: 30px;
+  display: flex;
+
+}
+
+
+li {
+  list-style: none;
+  border: 4px double gray;
+}
+.localInfo {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
 }
